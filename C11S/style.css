@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(213, 110, 247);
+    height: 100px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 25px;
+}
+
+main {
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(213, 110, 247);
+    border: black 100px solid;
+    height: 850px;
+    text-align: center;
+}
+
+form div#datos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 20px;
+}
+
+form fieldset#deportes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+form fieldset#nacimiento {
+    display: flex;
+    flex-direction: column;
+}
+
+form div#botones button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
