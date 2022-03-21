@@ -1,18 +1,18 @@
-// console.log( alert('Esto es una alerta') );
+let title = document.querySelector("h1");
 
-// console.log(confirm('Quieres seguir navegando?')
-// );
+console.log(alert("Bienvenido a la primera practica"));
+console.log(confirm('Quieres seguir navegando?'));
 
-// console.log(prompt('Ingrese su nombre'));
+let tratoPersonalizado = confirm("¿Desea un trato personalizado?")
 
-// let tratoPersonalizado = confirm("¿Desea un trato personalizado?")
+if(tratoPersonalizado){
+let nombre = prompt("Por favor, introduzca su nombre");
+alert("Le damos la bienvenida a nuestro sitio "+ nombre +". ¡Muchas gracias por visitarnos, estamos a su disposición! 😀");
+title.innerText = "Bienvenido a la pagina " + nombre;
 
-// if(tratoPersonalizado){
-// let nombre = prompt("Por favor, introduzca su nombre");
-// alert("Le damos la bienvenida a nuestro sitio "+ nombre +". ¡Muchas gracias por visitarnos, estamos a su disposición! 😀");
-// } else {
-// alert("Gracias por conectarse.")
-// }
+} else {
+alert("Gracias por conectarse.")
+}
 
 // let a = parseInt("22");
 // let b = parseInt(prompt("Ingrese edad"));

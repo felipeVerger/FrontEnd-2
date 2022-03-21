@@ -4,7 +4,7 @@ function encuentra(miNumero){
 
     while (puntaje < 5) {
         if (miNumero ===  numeroRandom) {
-            console.log("Le pegaste perrra tu numero era: " + miNumero + " y el de la maquina: " + numeroRandom);
+            console.log("Acertaste tu numero era: " + miNumero + " y el de la maquina: " + numeroRandom);
             return ++puntaje;
         } else {
             console.log("Perdiste tu numero era " + miNumero + ", y el random es " + numeroRandom);
